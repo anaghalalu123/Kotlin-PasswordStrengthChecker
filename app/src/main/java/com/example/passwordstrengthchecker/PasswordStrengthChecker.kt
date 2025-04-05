@@ -1,7 +1,7 @@
 package com.example.passwordstrengthchecker
 
 fun main(){
-    println("Enter you password: ")
+    println("Enter you password:")
     val passWord = readLine()?:""
 
     val hasLength = passWord.length>8
